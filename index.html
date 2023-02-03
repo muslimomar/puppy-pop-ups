@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Puppy Pop-Ups</title>
+    <meta charset="utf-8">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="main-container container d-flex justify-content-center align-items-center overflow-hidden p-3">
+        <img id="dog-img" class="img-fluid rounded d-none" alt="Dog Image">
+
+        <div id="loading-spinner" class="spinner-grow d-none text-white" role="status">
+            <span class="visually-hidden">Loading...</span>
+        </div>
+
+        <div id="error-message" class="container text-center d-none text-white">
+            <h1 class="display-4">Oops!</h1>
+            <p class="lead">Something went wrong!</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
